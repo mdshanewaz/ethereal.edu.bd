@@ -1,0 +1,14 @@
+.about-section{
+    background: var(--color-1);
+    color: #fff;
+}
+
+.about-section h1{
+    font-weight: bold;
+}
+
+
+#about-img {
+    box-shadow: -15px 15px 5px rgb(129, 129, 129);
+    border-radius: 5px;
+}
