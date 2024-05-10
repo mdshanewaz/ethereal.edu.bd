@@ -6,10 +6,13 @@
     <title>ABOUT | ETHEREAL</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/mission.css"></link>
+    <link rel="stylesheet" href="css/mission.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 sticky-top">
@@ -30,7 +33,7 @@
                
               <!-- <div class="dropdown-divider"></div> -->
               <a class="dropdown-item" href="activity.html">FEATURES</a>
-              <a class="dropdown-item" href="teachers.html">OUR TEACHERS</a>
+              <a class="dropdown-item" href="teachers.html">FACULTY MEMBER</a>
               <a class="dropdown-item" href="#">EXTRACURRICULAR</a>
               <a class="dropdown-item" href="campus.html">RESOURCEFUL CAMPUS</a>
               <a class="dropdown-item" href="islamic.html">HIFZUL QURAN</a>
@@ -39,21 +42,30 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ACADEMIC</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-              <a class="dropdown-item" href="#">CURRICULAM</a>
+              <a class="dropdown-item" href="currucullum.html">CURRICULAM</a>
               <a class="dropdown-item" href="#">SYLLABUS</a>
               <a class="dropdown-item" href="#">BOOK LIST</a>
-              <a class="dropdown-item" href="#">ROUTINE</a>
+              <a class="dropdown-item" href="#">CLASS SCHEDULE</a>
+              <a class="dropdown-item" href="#">EXAM SCHEDULE</a>
+              <a class="dropdown-item" href="#">YEAR PLANNER</a>
+              <a class="dropdown-item" href="#">HOLIDAYS</a>
             </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ADMISSION</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
               <a class="dropdown-item" href="admision.html">ADMISSION NOTICE</a>
-              <a class="dropdown-item" href="proces.html">ADMISSION PROCES</a>
+              <a class="dropdown-item" href="proces.html">ADMISSION PROCESS</a>
             </div>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="notice.html">NOTICES</a>
+            <a class="nav-link" href="#">NEWS & MEDIA</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="notice.html">NOTICE</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">GALLERY</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="career.html">CAREER</a>
@@ -71,7 +83,7 @@
 
   <section class="about-section py-5">
       <div class="contain text-center">
-          <h1 class="py-4">ABOUT ETHEREAL</h1>
+          <h1 class="py-4" id="school_slogan">School For The Future</h1>
       </div>
   </section>
 
@@ -82,7 +94,7 @@
                   <img class="img img-fluid mt-sm-5 mt-0" id="about-img" src="img/ethereal.jpg" alt="">
                 </div>
                 <div class="col-md-6 mt-5 mt-sm-0">
-                  <h2 class="">INTRODUCTION</h2>
+                  <h2 class="message_title">INTRODUCTION</h2>
                   <div class="" id="text_underline"></div>
                   <p id="para">ETHEREAL is the first English Medium School in Feni following
                     Cambridge Curriculum with Islamic education. We are committed to
@@ -114,27 +126,33 @@
           <div class="row">
               <div class="col-md-4">
                   <div class="flip-card">
-                      <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                          <i class="fa-solid fa-lightbulb pt-3"></i>
-                          <h2 class="mt-3">VISION</h2>
-                        </div>
-                        <div class="flip-card-back">
-                          <p class="lead p-3 mt-5">To flourish wise and competent leaders who will lead the world in various sectors and fulfil the responsibilities of their socity through academic excellence, intellectual growth snd morsl values.</p>
-                        </div>
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front pt-3">
+                        <i class="fas fa-bullseye"></i>
+                        <h2 class="mt-3">MISSION</h2>
                       </div>
+                      <div class="flip-card-back">
+                        <p class="lead p-1 pt-2">The ETHEREAL will identify and nurture exceptional young people from any background with the potential to become effective, ethical leaders. Academy graduates will be reflective, compassionate, adventurous and creative citizens empowered as stewards to make a positive contribution in a changing world.
+                        </p>
+                      </div>
+                    </div>
                   </div>
               </div>
               <div class="col-md-4">
                   <div class="flip-card">
                       <div class="flip-card-inner">
-                        <div class="flip-card-front pt-3">
-                          <i class="fas fa-bullseye"></i>
-                          <h2 class="mt-3">MISSION</h2>
+                        <div class="flip-card-front">
+                          <i class="fa-solid fa-lightbulb pt-3"></i>
+                          <h2 class="mt-3">VISION</h2>
                         </div>
-                        <div class="flip-card-back">
-                          <p class="lead p-1 pt-2">The ETHEREAL will identify and nurture exceptional young people from any background with the potential to become effective, ethical leaders. Academy graduates will be reflective, compassionate, adventurous and creative citizens empowered as stewards to make a positive contribution in a changing world.
-                          </p>
+                        <div class="flip-card-back" id="flip_back">
+                          <ul class="lead mt-5">
+                            <li>&#9642; Brain Developemnet</li>
+                            <li>&#9642; Heart Developemnet</li>
+                            <li>&#9642; Mind Developemnet</li>
+                            <li>&#9642; Body Developemnet</li>
+                            <li>&#9642; Social Developemnet</li>
+                          </ul> 
                         </div>
                       </div>
                   </div>
@@ -147,12 +165,12 @@
                           <h2 class="mt-3">VALUES</h2>
                         </div>
                         <div class="flip-card-back">
-                            <ul class="lead mt-5">
+                            <ul class="lead mt-5 text-start" id="flip_back_list">
                               <li>&#9642; EXCELLENCE</li>
-                              <li>&#9642; ETHICS</li>
-                              <li>&#9642; SERVICE</li>
-                              <li>&#9642; COLABORATION</li>
-                              <li>&#9642; RESPECT</li>
+                              <li>&#9642; INNOVATION</li>
+                              <li>&#9642; MANNER</li>
+                              <li>&#9642; DISCIPLINE</li>
+                              <li>&#9642; LEADERSHIP</li>
                             </ul> 
                         </div>
                       </div>

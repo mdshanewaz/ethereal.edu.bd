@@ -24,6 +24,11 @@ nav{
     font-size: 15px;
 }
 
+.message_title{
+    font-family: Dancing Script, cursive;
+}
+
+
 #carousel_img {
     height: 80vh;
     object-fit: cover;
